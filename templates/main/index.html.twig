@@ -1,0 +1,42 @@
+{% include 'main/header.html.twig' %}
+  <body>
+
+<div class="mt-20">
+  <div class="container " id="cont_products">
+  {% for i in range(0, tw_nbItemShop/3-1) %}
+  <div class='row ml-5'>
+  {% for j in range(0, tw_nbItemShop/4-1) %}
+<div class='col-md-4'>
+  <div class='card mb-4 box-shadow' style="width: 20rem; height: 13rem">
+    <div class='card-body'>
+      <h5 class='card-title'>
+        {{tw_Products[i*3+j].Nom}}
+      </h5>
+      <p class='card-text '>
+        {{tw_Products[i*3+j].Description}}
+      </p>
+      <div class='d-flex justify-content-between align-items-center position-absolute fixed-bottom mb-3'>
+        <div class='btn-group '>
+          <a href="product/{{tw_Products[i*3+j].Id}}" class='btn btn-sm btn-outline-secondary ml-2' type='button'> Voir la fiche
+          </a>
+        </div>
+        <strong class='mr-2'>
+
+          {{tw_Products[i*3+j].Prix//100}}€{{ "%02d"|format(tw_Products[i*3+j].Prix%100) }}
+         </strong>
+      </div>
+    </div>
+  </div>
+
+ </div>
+  {% endfor %}
+  </div>
+  {% endfor %}
+  </div>
+</div>
+{% include 'main/footer.html.twig' %}
+
+
+    </script>
+  </body>
+</html>

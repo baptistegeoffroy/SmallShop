@@ -1,0 +1,12 @@
+INSERT INTO Produit VALUES (1,'RazorKeyboard','Un clavier surcoté',8000),
+(2,'Logitech Low-Profile','Un clavier pour les petits doigts',2000),
+(3,'Logitech Mechanical Low-Profile','Un clavier pour les petits doigts,mécanique',9000),
+(4,'RazorKeyboard MX700','Un clavier très surcoté',18000),
+(5,'RazorKeyboard MX800','Certainement le clavier le plus surcoté',25000),
+(6,'WoW Keyboard GM','Un clavier pour muter ses mates,ça n''a pas de prix',80000),
+(7,'The Ring Keyboard','Un clavier pour les gouverner tous!',100000),
+(8,'Mechanical Random Keyboard 1','Un clavier mécanique pour réveiller les colocataires',8000),
+(9,'Mechanica  l Random Keyboard 2','Un clavier mécanique pour réveiller les colocataires',8000),
+(10,'Mechanical Random Keyboard 3','Un clavier mécanique pour réveiller les colocataires',8800),
+(11,'DJ Keyboard','Un clavier avec les touches volumes et next track!',3500),
+(12,'COMPAQ Keyboard','Un clavier PS2',80);
